@@ -45,6 +45,7 @@ body {
             background: transparent;
             outline: none;
             color: whitesmoke;
+            transition: .3s;
         }
 
         input:focus {
