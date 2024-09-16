@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Linking the stylesheet to my html page -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking the boxicons icon as fonts -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="form-container">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <label for="userName">Username</label>
+                <input type="text" name="userName" id="userName">
+            </div>
+            <div class="input-box">
+                <label for="userPass">Password</label>
+                <input type="text" name="userPass" id="userPass">
+            </div>
+            <a href="#" id="forgot-pass-btn">Forgot Password?</a>
+            <button>Sign in</button>
+            <div id="separator">
+                <hr>
+                <span>Social accounts</span>
+            </div>
+            <div id="social-accounts">
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-github'></i>
+            </div>
+        </form>
+        <span id="signup-btn">Don't have an account? <a href="#">Sign up</a></span>
+    </div>
+</body>
+
+</html>
