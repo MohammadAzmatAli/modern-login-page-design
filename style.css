@@ -28,7 +28,7 @@ body {
     background-color: var(--clr-primary-dark);
     color: rgb(165, 165, 165);
 
-    h2 {
+    h1 {
         color: white;
     }
 
@@ -45,6 +45,10 @@ body {
             background: transparent;
             outline: none;
             color: whitesmoke;
+        }
+
+        input:focus {
+            border-color: #9d4edd;
         }
 
         label {
